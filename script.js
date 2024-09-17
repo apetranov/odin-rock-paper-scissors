@@ -54,18 +54,18 @@ function playRound() {
   }
 }
 
-function playGame() {
-  for (let index = 1; index <= 5; index++) {
-    playRound();
-  }
+// function playGame() {
+//   for (let index = 1; index <= 5; index++) {
+//     playRound();
+//   }
 
-  if (humanScore > computerScore) {
-    console.log("You won the game!");
-  } else if (computerScore > humanScore) {
-    console.log("You lost the game!");
-  } else {
-    console.log("Game tied!");
-  }
-}
+//   if (humanScore > computerScore) {
+//     console.log("You won the game!");
+//   } else if (computerScore > humanScore) {
+//     console.log("You lost the game!");
+//   } else {
+//     console.log("Game tied!");
+//   }
+// }
 
 playGame();
